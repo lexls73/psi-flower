@@ -120,8 +120,6 @@ grid.addEventListener("click", e => {
   updateState();
 });
 
-updateState();
-
 // (Opcional) botón para resetear todo
 const resetBtn = document.getElementById("reset");
 if (resetBtn) {
@@ -130,3 +128,5 @@ if (resetBtn) {
     location.reload();
   });
 }
+
+updateState();
